@@ -1,0 +1,50 @@
+ul.myStyle {
+  list-style-type: none;
+}
+
+ul.myCircle {
+  list-style-type: circle;
+}
+
+ul.mySquare {
+  list-style-type: square;
+}
+
+ul.myLine {
+  list-style-type: "- ";
+}
+
+ul.mySymbols {
+  list-style-type: circled-alpha;
+}
+
+ul.thumbs {
+  list-style-type: thumbs;
+  list-style-position: inside;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+ol.myUpperRoman {
+  list-style-type: upper-roman;
+}
+
+ol.myLowerAlpha {
+  list-style-type: lower-alpha;
+}
+
+ol.myDecimal {
+  list-style-type: decimal-leading-zero;
+}
+
+@counter-style circled-alpha {
+  system: fixed;
+  symbols: Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ;
+  suffix: " ";
+}
+
+@counter-style thumbs {
+  system: cyclic;
+  symbols: "\1F44D";
+  suffix: " ";
+}
