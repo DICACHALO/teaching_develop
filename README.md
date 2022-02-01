@@ -20,3 +20,5 @@ Class 8 - [Reglas y selectores](https://resisted-rainforest-8d9.notion.site/Clas
 Class 9 - [Colores e imágenes](https://resisted-rainforest-8d9.notion.site/Class-9-Colores-e-im-genes-53a0f06c89334a33a8408adb98e3738c)
 
 Class 10 - [List-style-type](https://resisted-rainforest-8d9.notion.site/Class-10-List-style-type-1c6cb424586144568730f35b1f806022)
+
+Class 11- [Navigation bar](https://resisted-rainforest-8d9.notion.site/Class-11-Navigation-Bar-70593745460c4974b908739d53f0452b)
