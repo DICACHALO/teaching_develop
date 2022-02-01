@@ -17,7 +17,7 @@ Class 7 - [Introducción a CSS](https://resisted-rainforest-8d9.notion.site/Clas
 
 Class 8 - [Reglas y selectores](https://resisted-rainforest-8d9.notion.site/Class-8-Reglas-y-selectores-975ea80e98f34c34909178303ae209f3)
 
-Class 9 - [Colores e imágenes](https://resisted-rainforest-8d9.notion.site/Class-9-Colores-e-im-genes-53a0f06c89334a33a8408adb98e3738c)
+Class 9 - [Colores e imágenes en CSS](https://resisted-rainforest-8d9.notion.site/Class-9-Colores-e-im-genes-53a0f06c89334a33a8408adb98e3738c)
 
 Class 10 - [List-style-type](https://resisted-rainforest-8d9.notion.site/Class-10-List-style-type-1c6cb424586144568730f35b1f806022)
 
