@@ -21,4 +21,6 @@ Class 9 - [Colores e imágenes en CSS](https://resisted-rainforest-8d9.notion.si
 
 Class 10 - [List-style-type](https://resisted-rainforest-8d9.notion.site/Class-10-List-style-type-1c6cb424586144568730f35b1f806022)
 
-Class 11- [Navigation bar](https://resisted-rainforest-8d9.notion.site/Class-11-Navigation-Bar-70593745460c4974b908739d53f0452b)
+Class 11 - [Navigation bar](https://resisted-rainforest-8d9.notion.site/Class-11-Navigation-Bar-70593745460c4974b908739d53f0452b)
+
+Class 12 - [Organizar texto parte 2](https://resisted-rainforest-8d9.notion.site/Class-12-Organizar-texto-parte-2-882f497b9d8543a4907af56fa4cd41fc)
