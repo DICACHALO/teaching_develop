@@ -1,7 +1,8 @@
 # teaching_develop
+
 Resources basic course teaching
 
-Class 1 - [Instalación y primeros pasos](https://resisted-rainforest-8d9.notion.site/Class-1-Instalaci-n-y-primeros-pasos-82e26b90c9dc46e5b5a135a7ebad7068) 
+Class 1 - [Instalación y primeros pasos](https://resisted-rainforest-8d9.notion.site/Class-1-Instalaci-n-y-primeros-pasos-82e26b90c9dc46e5b5a135a7ebad7068)
 
 Class 2 - [Organizar texto](https://resisted-rainforest-8d9.notion.site/Class-2-Organizar-texto-25eb4be9492e4f3693c11bb03ea62e5d)
 
@@ -24,3 +25,5 @@ Class 10 - [List-style-type](https://resisted-rainforest-8d9.notion.site/Class-1
 Class 11 - [Navigation bar](https://resisted-rainforest-8d9.notion.site/Class-11-Navigation-Bar-70593745460c4974b908739d53f0452b)
 
 Class 12 - [Organizar texto parte 2](https://resisted-rainforest-8d9.notion.site/Class-12-Organizar-texto-parte-2-882f497b9d8543a4907af56fa4cd41fc)
+
+Class 13 - [Posicionamiento](https://resisted-rainforest-8d9.notion.site/Posicionamiento-a234d0c1e0b64b859703a368ece1ba18)
