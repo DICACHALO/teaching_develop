@@ -27,3 +27,5 @@ Class 11 - [Navigation bar](https://resisted-rainforest-8d9.notion.site/Class-11
 Class 12 - [Organizar texto parte 2](https://resisted-rainforest-8d9.notion.site/Class-12-Organizar-texto-parte-2-882f497b9d8543a4907af56fa4cd41fc)
 
 Class 13 - [Posicionamiento](https://resisted-rainforest-8d9.notion.site/Posicionamiento-a234d0c1e0b64b859703a368ece1ba18)
+
+Class 14 - [Flexbox parte 1](https://resisted-rainforest-8d9.notion.site/Class-14-Contenedor-flex-parte-1-3ee4060161a8447b82b87504ae25bb98)
