@@ -33,3 +33,5 @@ Class 14 - [Flexbox parte 1](https://resisted-rainforest-8d9.notion.site/Class-1
 Class 15 - [Tablas](https://resisted-rainforest-8d9.notion.site/Class-15-Tablas-146c49268c4242d782599d9662f4acfa)
 
 Class 16 - [Forms: inputs](https://resisted-rainforest-8d9.notion.site/Class-16-Formularios-inputs-e76b98ec6b2d491ea888cf5d18e957a1)
+
+Class 17 - [Forms: fieldset](https://resisted-rainforest-8d9.notion.site/Class-17-Formularios-organizar-campos-75bcdaf7a53d46a3bbf56ccefed3b1fb)
