@@ -35,3 +35,5 @@ Class 15 - [Tablas](https://resisted-rainforest-8d9.notion.site/Class-15-Tablas-
 Class 16 - [Forms: inputs](https://resisted-rainforest-8d9.notion.site/Class-16-Formularios-inputs-e76b98ec6b2d491ea888cf5d18e957a1)
 
 Class 17 - [Forms: fieldset](https://resisted-rainforest-8d9.notion.site/Class-17-Formularios-organizar-campos-75bcdaf7a53d46a3bbf56ccefed3b1fb)
+
+Class 18 - [Forms: textarea](https://resisted-rainforest-8d9.notion.siteClass-18-Formularios-textarea-2616cf4dde68414183bae98d42cf2ebb)
