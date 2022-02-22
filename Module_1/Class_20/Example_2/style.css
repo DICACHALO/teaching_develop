@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  color: #666;
+  background: #4b3535;
+  line-height: 1.6em;
+}
+
+h1 {
+  margin: 0 0 1em 0;
+  line-height: 1.4em;
+}
+
+p {
+  margin: 1em 0;
+  text-align: justify;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 1rem auto;
+  width: 80%;
+  max-width: 75rem;
+
+  background: white;
+  padding: 2em;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 45rem) {
+  .container {
+    width: 90%;
+    font-size: 0.9em;
+  }
+}

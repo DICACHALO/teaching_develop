@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tablas</title>
+  </head>
+  <body>
+    <h1>Tablas y usos</h1>
+    <table class="table-3">
+      <colgroup></colgroup>
+      <colgroup
+        span="2"
+        style="background: #80ff004d; border: 1px solid #64c8004d"
+      ></colgroup>
+      <colgroup
+        span="2"
+        style="background: #ff80004d; border: 1px solid #c864004d"
+      ></colgroup>
+      <tr>
+        <th></th>
+        <th colspan="2">Mike</th>
+        <th colspan="2">Tara</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Primera prueba</th>
+        <th>Segunda prueba</th>
+        <th>Primera prueba</th>
+        <th>Segunda prueba</th>
+      </tr>
+      <tr>
+        <th>Día 1</th>
+        <td>25 km</td>
+        <td>38 km</td>
+        <td>28 km</td>
+        <td>37 km</td>
+      </tr>
+      <tr>
+        <th>Día 2</th>
+        <td>22 km</td>
+        <td>35 km</td>
+        <td>30 km</td>
+        <td>35 km</td>
+      </tr>
+    </table>
+    <table class="table-3">
+      <thead>
+        <tr>
+          <th></th>
+          <th colspan="2">Anthony</th>
+          <th colspan="2">Lione</th>
+        </tr>
+
+        <tr>
+          <th scope="col">Fecha</th>
+          <th>Entrada</th>
+          <th>Salida</th>
+          <th>Entrada</th>
+          <th>Salida</th>
+        </tr>
+      </thead>
+
+      <tbody
+        style="
+          background: rgba(179, 82, 37, 0.3);
+          border: 1px solid rgba(165, 52, 240, 0.822);
+        ">
+        <tr>
+          <th>15/07</th>
+          <td>$200,00</td>
+          <td>$50,00</td>
+          <td>$0</td>
+          <td>$0</td>
+        </tr>
+
+        <tr>
+          <th>28/07</th>
+          <td>$0,00</td>
+          <td>$100,00</td>
+          <td>$100,00</td>
+          <td>$0,00</td>
+        </tr>
+      </tbody>
+      <tbody
+        style="
+          background: rgba(255, 128, 0, 0.3);
+          border: 1px solid rgba(200, 100, 0, 0.3);">
+        <tr>
+          <th>09/08</th>
+          <td>$0,00</td>
+          <td>$50,00</td>
+          <td>$0,00</td>
+          <td>$80,00</td>
+        </tr>
+        <tr>
+          <th>22/08</th>
+          <td>$40,00</td>
+          <td>$0,00</td>
+          <td>$0,00</td>
+          <td>$110,00</td>
+        </tr>
+        <tr>
+          <th>25/08</th>
+          <td>$0,00</td>
+          <td>$20,00</td>
+          <td>$0,00</td>
+          <td>$0,00</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th>Balance</th>
+          <td colspan="2">$20,00</td>
+          <td colspan="2">$10,00</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <table class="table-3">
+      <tr>
+        <th></th>
+        <th>Básico</th>
+        <th>Completo</th>
+      </tr>
+      <tr>
+        <th>Instalación</th>
+        <td rowspan="2">Gratis!</td>
+        <td>$49.99</td>
+      </tr>
+      <tr>
+        <th>Primer año</th>
+        <td>$19.99</td>
+      </tr>
+      <tr>
+        <th>Segundo año</th>
+        <td>$9.99</td>
+        <td>$29.99</td>
+      </tr>
+    </table>
+
+    <table class="table-3">
+      <tr>
+        <th></th>
+        <th>Día 1</th>
+        <th>Día 2</th>
+        <th>Día 3</th>
+        <th>Día 4</th>
+      </tr>
+
+      <tr>
+        <th>Mike (lastimado)</th>
+        <td colspan="3">0 km</td>
+        <td>4 km</td>
+      </tr>
+
+      <tr>
+        <th>Susan</th>
+        <td>23 km</td>
+        <td>18 km</td>
+        <td>19 km</td>
+        <td>15 km</td>
+      </tr>
+    </table>
+    <table class="table-3">
+      <caption>
+        Consumo de combustible de los autos a lo largo de las pruebas de manejo
+      </caption>
+      <tr>
+        <th scope="col">Car</th>
+        <th>Enero</th>
+        <th>Febrero</th>
+        <th>Marzo</th>
+      </tr>
+
+      <tr>
+        <th>Chevrolet Camaro</th>
+        <td>1254 lts</td>
+        <td>1582 lts</td>
+        <td>685 lts</td>
+      </tr>
+
+      <tr>
+        <th>Lamborghini Aventator</th>
+        <td>1854 lts</td>
+        <td>1978 lts</td>
+        <td>1502 lts</td>
+      </tr>
+    </table>
+
+    <table class="table-2">
+      <tr>
+        <th scope="row">Día</th>
+        <th>Hoy</th>
+        <th>Mañana</th>
+        <th>Jueves</th>
+      </tr>
+      <tr>
+        <th>Condición</th>
+        <td>Soleado</td>
+        <td>Mayormente soleado</td>
+        <td>Parcialmente nublado</td>
+      </tr>
+      <tr>
+        <th>Temperatura</th>
+        <td>19°</td>
+        <td>17°</td>
+        <td>12°</td>
+      </tr>
+      <tr>
+        <th>Vientos</th>
+        <td>E 13 km/h</td>
+        <td>E 11 km/h</td>
+        <td>E 16 km/h</td>
+      </tr>
+    </table>
+    <br />
+    <table class="table-1">
+      <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        <td>Celda 3</td>
+      </tr>
+      <tr>
+        <td>Celda 4</td>
+        <td>Celda 5</td>
+        <td>Celda 6</td>
+      </tr>
+    </table>
+  </body>
+</html>

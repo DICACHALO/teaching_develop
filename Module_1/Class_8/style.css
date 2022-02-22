@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    color: darkred;
+    font-size: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+
+p{
+    color: red;
+}
+
+p span {
+    color: lawngreen;
+}
+
+p span em{
+    text-decoration: underline;
+}
+
+#destacado{
+    font-size: 400px;
+    color: lightseagreen;
+}
+
+.interesante{
+    padding: 50px;
+    margin: 40px;
+}
