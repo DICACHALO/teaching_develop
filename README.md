@@ -9,3 +9,5 @@ Class 2 - [Variables](https://resisted-rainforest-8d9.notion.site/Class_2-Variab
 Class 3 - [Operadores](https://resisted-rainforest-8d9.notion.site/Class_3-Operadores-d96b59e57f7b42a59d38257bae15a991)
 
 Class 4 - [Funciones](https://resisted-rainforest-8d9.notion.site/Class_4-Funciones-1f50c0827ace413b8c2c8e5031f93212)
+
+Class 5 -[Return](https://resisted-rainforest-8d9.notion.site/Class_5-Return-dd83d1e68c7e45a686d7e1adcf843f19)
