@@ -11,3 +11,5 @@ Class 3 - [Operadores](https://resisted-rainforest-8d9.notion.site/Class_3-Opera
 Class 4 - [Funciones](https://resisted-rainforest-8d9.notion.site/Class_4-Funciones-1f50c0827ace413b8c2c8e5031f93212)
 
 Class 5 -[Return](https://resisted-rainforest-8d9.notion.site/Class_5-Return-dd83d1e68c7e45a686d7e1adcf843f19)
+
+Class 6 - [Const and Prompt](https://resisted-rainforest-8d9.notion.site/Class-6-Const-y-Prompt-ce0184317e144e9db2ea3c2ef3a96493)
