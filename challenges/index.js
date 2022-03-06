@@ -1,15 +1,18 @@
 function greeting() {
+  let nameUser;
   nameUser = prompt("Por favor, escribe tu nombre");
   alert("Hola " + nameUser);
 }
 
 function greeting2() {
+  let firstName, lasttName;
   firstName = prompt("Por favor, escribe tu nombre");
   lasttName = prompt("Por favor, escribe tu apellido");
   alert("Hola " + firstName + " " + lasttName);
 }
 
 function sumNumbers() {
+  let number1, number2, result;
   alert("¡Vamos a sumar!");
   number1 = prompt("Por favor, escribe un número. Puedes usar decimales.");
   number1 = parseFloat(number1);
@@ -29,6 +32,7 @@ function sumNumbers() {
 }
 
 function mathOperation() {
+  let number1, number2, number3, result;
   alert("Escribe los números que vamos a sumar.");
   number1 = prompt(
     "Por favor, escribe el primer número. Puedes usar decimales."
@@ -55,6 +59,7 @@ function mathOperation() {
 }
 
 function discountPizzaSlices() {
+  let pizzaInitial, pizzaEaten, pizzaFinal;
   pizzaInitial = prompt(
     "Hola. ¿Con cuántas rebanadas de pizza llegaste a la fiesta?"
   );
@@ -74,6 +79,7 @@ function discountPizzaSlices() {
 }
 
 function youAge() {
+  let nameUser, ageUser, lastYear, nextYear;
   nameUser = prompt("Por favor, escribe tu nombre");
   ageUser = prompt("Ahora, escribe tu edad");
   ageUser = parseInt(ageUser);
@@ -90,6 +96,7 @@ function youAge() {
 }
 
 function theRestaurantBill() {
+  let total, people, tip, tax, totalAccount, totalForEachPerson;
   alert(
     "Este programa te permite saber cuánto debes pagar en total en tu cuenta del restaurante y cómo se dividirá la cuenta entre los comensales."
   );
@@ -120,11 +127,25 @@ function theRestaurantBill() {
 }
 
 function daysConverter() {
+  let days, hours, seconds;
   days = prompt(
     "Ingresa la cantidad de días que deseas convertir a horas y segundos."
   );
   days = parseInt(days);
   hours = days * 24;
   seconds = hours * 60 * 60;
-  alert("En " + days + " días hay " + hours + " horas y " + seconds + " segundos." );
+  alert(
+    "En " + days + " días hay " + hours + " horas y " + seconds + " segundos."
+  );
+}
+
+function kmConverter() {
+  const und = parseFloat(1.609344);
+  let millas, km;
+  millas = prompt(
+    "Ingresa la cantidad de millas que deseas convertir a kilómetros."
+  );
+  millas = parseInt(millas);
+  km = millas * und;
+  alert("En " + millas + " millas hay " + km + " kilómetros.");
 }
