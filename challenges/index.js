@@ -43,4 +43,13 @@ function discountPizzaSlices(){
     alert("Llegaste con " + pizzaInitial + " rebanadas de pizza, hasta ahora has consumido " + pizzaEaten + " rebanadas, por lo tanto, te quedadn " + pizzaFinal + ".");
 }
 
+function youAge(){
+    nameUser = prompt("Por favor, escribe tu nombre");
+    ageUser = prompt("Ahora, escribe tu edad");
+    ageUser = parseInt(ageUser);
+    lastYear = ageUser++;
+    nextYear = ageUser--;
+    alert(nameUser + " el año pasado tenías " + lastYear + " y el próximo cumplirás " + nextYear + " años.");
+}
+
 
