@@ -34,5 +34,13 @@ function mathOperation(){
     alert("El resultado de sumar " + number1 + " con " + number2 + " y luego multiplicarlo por " + number3 + " es: " + result + ".");
 }
 
+function discountPizzaSlices(){
+    pizzaInitial = prompt("Hola. ¿Con cuántas rebanadas de pizza llegaste a la fiesta?");
+    pizzaInitial = parseInt(pizzaInitial);
+    pizzaEaten = prompt("¿Cuántas rebanadas de pizza se han consumido?");
+    pizzaEaten = parseFloat(pizzaEaten);
+    pizzaFinal = (pizzaInitial - pizzaEaten);
+    alert("Llegaste con " + pizzaInitial + " rebanadas de pizza, hasta ahora has consumido " + pizzaEaten + " rebanadas, por lo tanto, te quedadn " + pizzaFinal + ".");
+}
 
 
