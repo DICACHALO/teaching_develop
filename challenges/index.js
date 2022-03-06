@@ -52,4 +52,25 @@ function youAge(){
     alert(nameUser + " el año pasado tenías " + lastYear + " y el próximo cumplirás " + nextYear + " años.");
 }
 
+function theRestaurantBill(){
+    alert("Este programa te permite saber cuánto debes pagar en total en tu cuenta del restaurante y cómo se dividirá la cuenta entre los comensales.")
+    total = prompt("Por favor, el valor total consumido.");
+    total = parseFloat(total);
+    people = prompt("¿Entre cuantas personas se dividirá la cuenta?");
+    people = parseInt(people);
+    tip = prompt("¿Que porcentaje de propina van a pagar? Escribir solo números.");
+    tip = parseFloat(tip);
+    tax = prompt("¿Que porcentaje de impuestos deben pagar? Escribir solo números.");
+    tax = parseFloat(tax);
+    totalAccount = total + (total*(tip/100)) + (total*(tax/100));
+    totalForEachPerson = totalAccount/people;
+    const formatterPeso = new Intl.NumberFormat('es-CO', {
+        style: 'currency',
+        currency: 'COP',
+        minimumFractionDigits: 0
+      })
+    alert("El total de la cuenta con propina e impuestos es " + formatterPeso.format(totalAccount));
+    alert("Cada persona debe pagar " + formatterPeso.format(totalForEachPerson));
+}
+
 
