@@ -149,3 +149,18 @@ function kmConverter() {
   km = millas * und;
   alert("En " + millas + " millas hay " + km + " kilómetros.");
 }
+
+function divide() {
+    let number1, number2, result;
+    number1 = prompt(
+      "Por favor, digita un número mayor a 1000."
+    );
+    number1 = parseFloat(number1);
+    number2 = prompt(
+        "Por favor, digita un número menor a 100."
+      );
+      number2 = parseFloat(number2);
+    result = number1/number2;
+    alert(number2 + " cabe en " + number1 + ", " + result + " veces.");
+  }
+  
