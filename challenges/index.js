@@ -83,8 +83,8 @@ function youAge() {
   nameUser = prompt("Por favor, escribe tu nombre");
   ageUser = prompt("Ahora, escribe tu edad");
   ageUser = parseInt(ageUser);
-  lastYear = ageUser+1;
-  nextYear = ageUser-1;
+  lastYear = ageUser-1;
+  nextYear = ageUser+1;
   alert(
     nameUser +
       " el año pasado tenías " +
