@@ -1,9 +1,12 @@
+//Challenge 1
+
 function greeting() {
   let nameUser;
   nameUser = prompt("Por favor, escribe tu nombre");
   alert("Hola " + nameUser);
 }
 
+//Challenge 2
 function greeting2() {
   let firstName, lasttName;
   firstName = prompt("Por favor, escribe tu nombre");
@@ -11,6 +14,7 @@ function greeting2() {
   alert("Hola " + firstName + " " + lasttName);
 }
 
+//Challenge 3
 function sumNumbers() {
   let number1, number2, result;
   alert("¡Vamos a sumar!");
@@ -30,6 +34,8 @@ function sumNumbers() {
       "."
   );
 }
+
+//Challenge 4
 
 function mathOperation() {
   let number1, number2, number3, result;
@@ -58,6 +64,8 @@ function mathOperation() {
   );
 }
 
+//Challenge 5
+
 function discountPizzaSlices() {
   let pizzaInitial, pizzaEaten, pizzaFinal;
   pizzaInitial = prompt(
@@ -78,13 +86,15 @@ function discountPizzaSlices() {
   );
 }
 
+//Challenge 6
+
 function youAge() {
   let nameUser, ageUser, lastYear, nextYear;
   nameUser = prompt("Por favor, escribe tu nombre");
   ageUser = prompt("Ahora, escribe tu edad");
   ageUser = parseInt(ageUser);
-  lastYear = ageUser-1;
-  nextYear = ageUser+1;
+  lastYear = ageUser - 1;
+  nextYear = ageUser + 1;
   alert(
     nameUser +
       " el año pasado tenías " +
@@ -94,6 +104,8 @@ function youAge() {
       " años."
   );
 }
+
+//Challenge 7
 
 function theRestaurantBill() {
   let total, people, tip, tax, totalAccount, totalForEachPerson;
@@ -126,42 +138,52 @@ function theRestaurantBill() {
   alert("Cada persona debe pagar " + formatterPeso.format(totalForEachPerson));
 }
 
+//Challenge 8
+
 function daysConverter() {
-  let days, hours, seconds;
+  let days, hours, minutes, seconds;
   days = prompt(
-    "Ingresa la cantidad de días que deseas convertir a horas y segundos."
+    "Ingresa la cantidad de días que deseas convertir a horas, minutos y segundos."
   );
   days = parseInt(days);
   hours = days * 24;
-  seconds = hours * 60 * 60;
+  minutes = hours * 60;
+  seconds = minutes * 60;
   alert(
-    "En " + days + " días hay " + hours + " horas y " + seconds + " segundos."
+    "La cantidad de horas es " +
+      hours +
+      ", la cantidad de minutos es " +
+      minutes +
+      " y la cantidad de segundos es " +
+      seconds +
+      " en " +
+      days +
+      " días."
   );
 }
+
+//Challenge 9
 
 function kmConverter() {
-  const und = parseFloat(1.609344);
-  let millas, km;
-  millas = prompt(
+  const und = 1.609344;
+  let mile, km;
+  mile = prompt(
     "Ingresa la cantidad de millas que deseas convertir a kilómetros."
   );
-  millas = parseInt(millas);
-  km = millas * und;
-  alert("En " + millas + " millas hay " + km + " kilómetros.");
+  mile= parseInt(mile);
+  km = mile * und;
+  alert("En " + mile + " millas hay " + km + " kilómetros.");
 }
 
+
+//Challenge 10
+
 function divide() {
-    let number1, number2, result;
-    number1 = prompt(
-      "Por favor, digita un número mayor a 1000."
-    );
-    number1 = parseFloat(number1);
-    number2 = prompt(
-        "Por favor, digita un número menor a 100."
-      );
-      number2 = parseFloat(number2);
-    result = number1/number2;
-    alert(number2 + " cabe en " + number1 + ", " + result + " veces.");
-  }
-  
-//Crear función para generar números aleatorios
+  let number1, number2, result;
+  number1 = prompt("Por favor, digita un número mayor a 1000.");
+  number1 = parseFloat(number1);
+  number2 = prompt("Por favor, digita un número menor a 100.");
+  number2 = parseFloat(number2);
+  result = number1 / number2;
+  alert(number2 + " cabe en " + number1 + ", " + result + " veces.");
+}
